@@ -12,7 +12,6 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-skills:
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
   summary: "Capable de déployer et de gérer des applications sur Kubernetes. Expérience dans l'écriture de contrôleurs Kubernetes pour les définitions de ressources personnalisées (CRDs)."
