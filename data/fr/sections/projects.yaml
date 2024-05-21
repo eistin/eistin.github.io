@@ -2,7 +2,7 @@
 section:
   name: Projets
   id: projects
-  enable: false
+  enable: true
   weight: 4
   showOnNavbar: true
   template: sections/projects.html
@@ -10,56 +10,42 @@ section:
   # hideTitle: true
 
 # filter buttons
-buttons:
-- name: সব বিষয়
-  filter: "all"
-- name: প্রোফেসনাল
-  filter: "professional"
-- name: প্রাতিষ্ঠানিক
-  filter: "academic"
-- name: শখের প্রোজেক্ট
-  filter: "hobby"
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
-
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
+- name: demo-app
+  logo: /images/sections/skills/github.png
   role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  repo: https://github.com/eistin/demo-app
+  summary: "Application en microservices mettant en œuvre une simple counter app. L'application consiste en des services backend et frontend séparés, ainsi que des composants de support comme une base de données et un serveur Nginx."
+  tags: ["demo", "golang", "php", "k8s", "helm"]
+
+- name: demo-terragrunt
+  logo: /images/sections/skills/github.png
+  role: Owner
+  repo: https://github.com/eistin/demo-terragrunt
+  summary: "Ce projet fournit un exemple de structure de fichiers/dossiers pour l'utilisation de Terragrunt afin de maintenir un code Terraform DRY, démontrant comment déployer un VPC, un cluster GKE privé et une base de données CloudSQL sur GCP, avec des instructions de déploiement détaillées et des mesures de sécurité pour l'accès autorisé au réseau et la gestion des secrets."
+  tags: ["demo", "terraform", "terragrunt", "gcp"]
+
+- name: demo-ansible-k8s
+  logo: /images/sections/skills/github.png
+  role: Owner
+  repo: https://github.com/eistin/demo-terragrunt
+  summary: "Ce projet est conçu pour faciliter le déploiement de l'application de démonstration sur GCP à l'aide d'Ansible et de Kubernetes, en automatisant le provisionnement de l'infrastructure, le déploiement de l'application et la gestion de la configuration avec des playbooks Ansible, des manifestes Kubernetes et des charts Helm."
+  tags: ["demo", "ansible", "k8s", "argocd", "kubedb"]
+
+- name: demo-docs
+  logo: /images/sections/skills/github.png
+  role: Owner
+  repo: https://github.com/eistin/demo-terragrunt
+  summary: "Documentation du projet de demo qui fournit une vue d'ensemble de la structure du projet, des référentiels et des stratégies de déploiement. Le but étant de guider les développeurs et les ingénieurs DevOps à travers les pratiques de déploiement d'applications modernes utilisant divers référentiels pour les microservices, la gestion de l'infrastructure et l'orchestration Kubernetes."
+  tags: ["demo", "ansible", "k8s", "argocd", ]
