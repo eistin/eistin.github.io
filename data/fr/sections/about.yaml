@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: À propos
   id: about
   enable: true
   weight: 1
@@ -14,12 +14,9 @@ designation: Site Reliability Engineer (SRE)
 #   name: Example Co.
 #   url: "https://www.example.com"
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Welcome on my portfolio!'
+summary: 'Bienvenue sur mon Portfolio'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -40,7 +37,7 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 # resourceLinks:
-# - title: "My Resume"
+# - title: "Mon CV"
 #   url: "files/resume.pdf"
 
 # Show your badges

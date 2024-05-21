@@ -10,64 +10,157 @@ section:
 
 # Your experiences
 experiences:
-- company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-  positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Freelance
+    location: "Full-remote"
+    overview: "I offer my expertise to clients in the cloud domain, covering various aspects such as migration to the cloud, CI/CD implementation, cloud infrastructure configuration, setting up monitoring systems, writing infrastructure as code (IAC) for those who have previously worked mainly via the user interface, as well as carrying out project audits."
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: SRE / DevOps / Cloud Architect - Freelance
+    start: April 2021
+ 
+- company:
+    name: Le Monde
+    url: "https://www.lemonde.fr/en/"
+    location: "Full-remote"
+    logo: /images/sections/experiences/lemonde.svg
+    overview: "Le Monde is a leading French newspaper, founded in 1944, covering a wide range of subjects from politics to culture and economics. Renowned for its investigative journalism and in-depth analysis, Le Monde is a trusted and respected source of information nationally and internationally."
+  positions:
+  - designation: Site Reliability Engineer (freelance)
+    start: March 2022
+    end: March 2023
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Ensuring the reliability, availability, and security of software systems.
+    - Daily infrastructure administration, development of CI/CD pipelines, and continuous monitoring of project performance.
+    - "Application Transition to Kubernetes: Played a pivotal role in migrating applications to Kubernetes and developing their CI/CD pipelines."
+    - "Continuous Application Optimization: Responsible for ongoing optimization of web and mobile applications, addressing performance, security, and cost considerations."
+    - "Monitoring: Contributed to establishing a monitoring stack using Prometheus and Grafana."
+    - "Continuous Run: weekly rotation in the SRE team, with one member designated as the primary runner while others provided backup support, ensuring focused attention on tasks while managing critical ongoing issues."
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: L'Oréal
+    url: "https://www.loreal.com/en/"
+    location: "Full-remote"
+    logo: /images/sections/experiences/loreal.png
+    overview: "L'Oréal is a French cosmetics group. The company, founded by Eugène Schueller on 30 July 1909, has now become the world's leading international group in the cosmetics industry."
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Cloud Architect / DevOps Engineer (freelance)
+    start: December 2021
+    end: February 2022
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Establish a starter-kit project for new L'Oréal projects.
+    - Conducting an audit on existing L'Oréal projects to identify best practices, areas for improvement, and the most utilized services.
+    - "Development of 15 Terraform modules and 4 boilerplate projects: front-end, back-end, data, and infrastructure-as-code (IaC) accompanied by documentation."
+    - "GCP services utilized: IAM, Secret Manager, Artifact Registry, App Engine, Compute Engine, VPC/Subnet, BigQuery, Cloud SQL, Cloud Storage, Cloud Run, Pub/Sub, Cloud Build, VertexAI."
+
+- company:
+    name: Teester
+    url: "https://skeepers.io/en/"
+    location: "Nantes"
+    logo: /images/sections/experiences/skeepers.webp
+    overview: "Teester is a SAAS consumer video platform enabling brands and retailers to automate the creation and distribution of authentic, relevant and qualitative videos made directly by their communities. Teester has been operating under the name Skeepers since September 2020."
+  positions:
+  - designation: Lead SRE (part-time freelance)
+    start: April 2021
+    end: December 2021
+    responsibilities:
+    - Managing the continuous run of the infrastructure.
+    - Integrating new services into the infrastructure.
+    - Interviewing for the recruitment of a new SRE in the team.
+    - Training a newcomer for the position of DevOps Engineer with a main focus on GCP, Kubernetes, Terraform and Ansible technologies.
+    - Supervision of the newcomer's work with verification of risks, implementation of best practices and proper functioning, particularly on the deployment of ISTIO, Prometheus and Grafana.
+    - The implementation of an Oauth2 proxy on the exposed interfaces of our internal tools.
+  - designation: Lead SRE
+    start: April 2020
+    end: April 2021
+    responsibilities:
+    - Initial task was to rebuild the infrastructure from scratch utilizing GCP, Kubernetes, Terraform, and Ansible technologies, while maintaining the existing legacy production environment.
+    - Migration from the legacy infrastructure to the new one, which entailed numerous changes (GCP project, Terraform, Ansible, database setups, Kubernetes configurations, pipelines, DNS, and certificate management).
+    - Management of operations on the new infrastructure, addressing developers' needs, enhancing integration and continuous deployment processes, and continually improving the infrastructure through version updates and the addition of new services.
+    - Migration from Google CDN to Cloudflare and initiation of the implementation of the monitoring stack using ISTIO, Prometheus, and Grafana technologies.
+    - "Technologies: GCP, Kubernetes, Terraform, Helm, Ansible, Nginx, Cloudflare, GitLab, Docker, Node.js, GraphQL, RabbitMQ, Redis, PMA."
+
+- company: 
+    name: Fendcer
+    location: "Full-remote"
+    logo: /images/sections/experiences/fendcer.png
+    overview: "Fendcer is a platform connecting advertisers/brands/places with individuals seeking to monetize their social media influence through various applications."
+  positions:
+  - designation: CTO
+    start: May 2020
+    end: July 2021
+    responsibilities:
+    - Lead the different technological changes of the project. My objective was to identify, compare, and select the technical solutions aligning best with the present and future needs of the product.
+    - "Architecture the product using mainly the concept of micro-service through the following technologies: GCP, Kubernetes, Graphql, Nodejs, Go, Redis, MySQL."
+    - Work closely between the UI/UX and development teams in order to organise a roadmap focus per feature.
+    - Managing the partnership with Google and Revolgy to assist us on the Cloud part.
+    - Look after the various possible risks and the optimisation of resources in order to meet the financial objectives.
+
+  - designation: DevOps Engineer
+    start: January 2020
+    end: July 2021
+    responsibilities:
+    - First, rewriting the AWS infrastructure for Fendcer using Terraform, implementing robust security practices (managing public and private subnets, deploying a bastion).
+    - Continued involvement with Fendcer during personal time and weekends, primarily focused on production maintenance.
+    - Recognizing the need for scalability, led a project redesign to micro-service architecture (GRAPQL/Node.js/Golang) for deployment on Kubernetes infrastructure on GCP (GKE).
+    - Execute migration of databases from AWS to GCP (RDS to CloudSQL) and synchronized DNS changes with applications on stores.
+    - Subsequent to the production launch, implemented numerous improvements including a GitOps workflow (FluxCD) and integration of Cloudflare CDN.
+    - "Technologies: AWS, GCP, Kubernetes, Terraform, Helm, Ansible, Fluxcd, Cloudflare, GitLab, Golang, Node.js, GraphQL (Apollo), PostgreSQL."
+
+
+- company:
+    name: Claranet
+    url: "https://www.claranet.com/us/"
+    location: "Cesson-Sévigné"
+    logo: /images/sections/experiences/claranet.png
+    overview: "Claranet are a managed services provider, offering fully managed hosting, network security and solutions services to help businesses reduce costs and risks."
+  positions:
+  - designation: Cloud DevOps Engineer
+    start: September 2019
+    end: February 2020
+    responsibilities:
+    - Maintain the high availability (HA) infrastructures of Claranet's customers, primarily hosted on cloud providers AWS and GCP, ensuring their functionality.
+    - Utilize a ticketing system, namely Service Now, to address production malfunctions, manage migrations, and provision new services on customer infrastructures.
+    - Participate in the development of a Proof-of-Concept (POC) utilizing Python, Go, Lambda/Serverless, and Terraform technologies.
+  
+  - designation: DevOps R&D Internship
+    start: April 2018
+    end: August 2018
+    responsibilities:
+    - "Perform a Proof-of-Concept (POC) to establish a continuous integration/deployment pipeline using Kubernetes, Helm, and GitLab CI technologies."
+    - "Set up On-Premise clusters by testing various solutions: Minikube, Kubeadm, and RKE (Rancher)."
+    - "Once the POC was operational, integrate this CI/CD pipeline into an internal project dedicated to the company's team and project management."
+    - "Build a Kubernetes (K8S) cluster and migrate services one by one while collaborating with the project team to accomplish the objective."
+
+- company:
+    name: Blacknut
+    url: "https://www.blacknut.com/en"
+    location: "Cesson-Sévigné"
+    logo: /images/sections/experiences/blacknut.png
+    overview: "Blacknut is a cloud gaming service dedicated to the general public, distributed both Direct to consumers and B2B through ISPs, device manufacturers, OTT services & Media companies."
+  positions:
+  - designation: DevOps internship
+    start: October 2017
+    end: February 2018
+    responsibilities:
+    - Develop an internal Python tool to automate recurring tasks such as data import/export, backup management, S3 object recycling, archive management, etc.
+    - Conceptualize the tool to allow addition of new tasks through a plug-in system.
+    - Set up game servers dedicated to the Paris Games Week event.
+
+
+- company:
+    name: Niji
+    url: "https://www.niji.fr/en/"
+    location: "Cesson-Sévigné"
+    logo: /images/sections/experiences/niji.png
+    overview: "Niji is a consulting, design and technology implementation company dedicated to the digital transformation of businesses and public bodies."
+  positions:
+  - designation: DevOps internship
+    start: July 2016
+    end: December 2016
+    responsibilities:
+    - Developed internal Python tool named Maestro to automate project releases via containerization with LXC/LXD and parsed configuration files.
+    - Integrated Maestro into multiple Niji teams.
+    - Initiated development of Docker plugin for Maestro.
+    - Authored training course on DevOps philosophy for project architects.
+    - Contributed to migration of company's Git from internally managed GitLab to externally managed GitLab.

@@ -2,7 +2,7 @@
 name: "Edwin Istin"
 nickname: "Edwin"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Salut, moi c'est"
 image: "images/author/edwin.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -13,7 +13,7 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a Developer
-  - I am a Devops enthusiast / SRE
-  - I love to build infrastructures
-  - I love to work on some fun projects
+  - Je suis développeur
+  - Je suis un passionné de Devops / SRE
+  - J'adore construire des infras
+  - J'aime travailler sur des projets funs et intéressants

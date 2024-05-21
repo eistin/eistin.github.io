@@ -2,7 +2,7 @@
 section:
   name: Education
   id: education
-  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  template: sections/education.html
   enable: true
   weight: 4
   showOnNavbar: true
@@ -10,7 +10,7 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Japanese class
+- name: Cours de japonais jusqu'au niveau N3
   icon: fa-university
   timeframe: 2023-2024
   institution:
@@ -18,25 +18,25 @@ degrees:
     url: "https://osakaymca.ac.jp/nihongo/en/"
     logo: /images/sections/education/ymca.webp
 
-- name: Master Degree Expert in information technology
+- name: Master Expert en technologie de l'information
   icon: fa-graduation-cap
-  timeframe: 2015-2020
+  timeframe: 2018-2020
   institution:
-    name: Master Degree IT Epitech
+    name: Master IT Epitech
     url: "https://www.epitech.eu/"
     logo: /images/sections/education/epitech.png
 
-- name: Game development
+- name: Développement de jeux vidéos
   icon: fa-university
   timeframe: 2018-2019
   institution:
     name: Keimyung University
     url: "https://www.kmu.ac.kr/uni/eng/main.jsp"
-    logo: /images/sections/education/keimyung.png
 
-- name: License Expert in information technology
+    logo: /images/sections/education/keimyung.png
+- name: License Expert en technologies de l’information
   icon: fa-university
-  timeframe: 2015-2020
+  timeframe: 2015-2018
   institution:
     name: License IT Epitech
     url: "https://www.epitech.eu/"

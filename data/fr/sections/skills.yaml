@@ -1,0 +1,89 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/skills.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+skills:
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Capable de déployer et de gérer des applications sur Kubernetes. Expérience dans l'écriture de contrôleurs Kubernetes pour les définitions de ressources personnalisées (CRDs)."
+  url: "https://kubernetes.io/fr/"
+
+- name: Terraform
+  logo: /images/sections/skills/terraform.png
+  summary: "Maîtrise de l'utilisation de Terraform pour provisionner et gérer l'infrastructure cloud en tant que code, assurant la cohérence et l'automatisation."
+  url: "https://www.terraform.io/fr/"
+
+- name: GCP (Google Cloud Platform)
+  logo: /images/sections/skills/gcp.png
+  summary: "Compétent dans le déploiement et la gestion d'applications et d'infrastructures sur Google Cloud Platform (GCP), utilisant divers services cloud pour la scalabilité et la fiabilité."
+  url: "https://cloud.google.com/?hl=fr"
+
+- name: AWS (Amazon Web Services)
+  logo: /images/sections/skills/aws.png
+  summary: "Expérience dans le déploiement et la gestion d'applications et d'infrastructures sur Amazon Web Services (AWS), tirant parti d'une gamme complète de services informatiques cloud."
+  url: "https://aws.amazon.com/"
+
+- name: Développement en Go
+  logo: /images/sections/skills/go.png
+  summary: "Utilisation comme principal langage pour le développement professionnel. Capable d'écrire des programmes évolutifs, testables et maintenables."
+  url: "https://golang.org/"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Maîtrise de Python pour développer des scripts polyvalents et des solutions d'automatisation."
+  url: "https://www.python.org/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Écriture de la plupart des programmes sous forme de conteneurs Dockerisés. Expérience avec les processus de construction multi-étapes et multi-architectures."
+  url: "https://www.docker.com/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Utilisation comme système d'exploitation principal. Capable d'écrire des scripts bash/shell pour l'automatisation et l'administration système."
+  url: ""
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Expérience avec le développement basé sur Git, principalement avec GitHub. Aussi, de l'expérience avec GitLab."
+  url: "https://git-scm.com/"
+
+- name: GitLab CI/CD
+  logo: /images/sections/skills/gitlab.png
+  summary: "Expérimenté dans la mise en place de pipelines d'intégration continue et de déploiement continu avec GitLab CI/CD, automatisant les processus de livraison logicielle."
+  url: "https://gitlab.com/"
+
+- name: Actions GitHub
+  logo: /images/sections/skills/github.png
+  summary: "Expérimenté dans la mise en place de pipelines d'intégration continue et de déploiement continu avec GitHub Actions, automatisant les processus de livraison logicielle."
+  url: "https://github.com/"
+
+- name: ArgoCD
+  logo: /images/sections/skills/argocd.png
+  summary: "Compétent dans la mise en œuvre de flux de travail GitOps pour la livraison continue à l'aide d'ArgoCD, automatisant le déploiement de l'infrastructure et des applications à partir de référentiels Git."
+  url: "https://argoproj.github.io/cd/"
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  summary: "Compétent dans la configuration des métriques Prometheus pour la surveillance et l'alerte, y compris avec PromQL, AlertManager, et l'écriture d'exportateurs de métriques."
+  url: "https://prometheus.io/"
+
+- name: Grafana
+  logo: /images/sections/skills/grafana.png
+  summary: "Expérimenté dans la visualisation et l'analyse de métriques avec Grafana, créant des tableaux de bord informatifs pour la surveillance et l'analyse."
+  url: "https://grafana.com/"
+
+- name: Cloudflare
+  logo: /images/sections/skills/cloudflare.png
+  summary: "Expérimenté dans l'utilisation de la suite de services de Cloudflare pour sécuriser, optimiser et accélérer les applications web et les APIs facilement."
+  url: "https://www.cloudflare.com/"

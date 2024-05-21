@@ -1,7 +1,7 @@
 baseURL: https://eistin.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Edwin's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -23,12 +23,12 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Edwin's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  fr:
+    languageCode: fr
+    languageName: French
+    title: "Blog d'Edwin"
     weight: 2
 # default language for the content
 defaultContentLanguage: en
@@ -81,7 +81,7 @@ params:
 
     # Enable dark theme
     darkMode:
-      enable: true
+      enable: false
 
     # Enable and configure portfolio
     portfolio:

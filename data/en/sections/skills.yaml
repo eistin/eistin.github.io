@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Compétences
   id: skills
   enable: true
   weight: 2
@@ -16,24 +16,35 @@ skills:
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
   url: "https://kubernetes.io/"
 
+- name: Terraform
+  logo: /images/sections/skills/terraform.png
+  summary: "Proficient in using Terraform to provision and manage cloud infrastructure as code, ensuring consistency and automation."
+  url: "https://www.terraform.io/"
+
+- name: GCP (Google Cloud Platform)
+  logo: /images/sections/skills/gcp.png
+  summary: "Skilled in deploying and managing applications and infrastructure on Google Cloud Platform (GCP), utilizing various cloud services for scalability and reliability."
+  url: "https://cloud.google.com/?hl=en"
+
+- name: AWS (Amazon Web Services)
+  logo: /images/sections/skills/aws.png
+  summary: "Experienced in deploying and managing applications and infrastructure on Amazon Web Services (AWS), leveraging a comprehensive suite of cloud computing services."
+  url: "https://aws.amazon.com/"
+
 - name: Go Development
   logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "Using as the main language for development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Proficient in Python for developing versatile scripts, web applications, and automation solutions."
+  url: "https://www.python.org/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -44,6 +55,32 @@ skills:
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Gitlab CI/CD
+  logo: /images/sections/skills/gitlab.png
+  summary: "Experienced in implementing continuous integration and continuous deployment pipelines using GitLab CI/CD, automating software delivery processes."
+  url: "https://gitlab.com/"
+
+- name: Github Actions
+  logo: /images/sections/skills/github.png
+  summary: "Experienced in implementing continuous integration and continuous deployment pipelines using Github Actions, automating software delivery processes."
+  url: "https://github.com/"
+
+- name: ArgoCD
+  logo: /images/sections/skills/argocd.png
+  summary: "Proficient in implementing GitOps workflows for continuous delivery using ArgoCD, automating deployment of infrastructure and applications from Git repositories."
+  url: "https://argoproj.github.io/cd/"
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  summary: "Skilled in setting up and configuring Prometheus metrics for monitoring and alerting, including working with PromQL, AlertManager, and writing metric exporters."
+  url: "https://prometheus.io/"
+
+- name: Grafana
+  logo: /images/sections/skills/grafana.png
+  summary: "Experienced in visualizing and analyzing metrics using Grafana, creating insightful dashboards for monitoring and analysis purposes."
+  url: "https://grafana.com/"
+
+- name: Cloudflare
+  logo: /images/sections/skills/cloudflare.png
+  summary: "Experienced in utilizing Cloudflare's suite of services for securing, optimizing, and accelerating web applications and APIs with ease."
+  url: "https://www.cloudflare.com/"
