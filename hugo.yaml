@@ -292,3 +292,8 @@ params:
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
       enable: true
+
+privacy:
+  googleAnalytics:
+    disable: false
+    respectDoNotTrack: false
