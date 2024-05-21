@@ -22,8 +22,8 @@ description: Portfolio and personal blog of John Doe.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: John's Blog
+  title: Edwin's Portfolio
   type: website
-  description: Portfolio and personal blog of John Doe.
+  description: Portfolio and personal blog of Edwin Istin.
   image: images/author/edwin.jpg
-  url: https://hugo-toha.github.io
+  url: https://eistin.github.io/
