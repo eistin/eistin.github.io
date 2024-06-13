@@ -78,14 +78,29 @@ badges:
 #   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 100
+  name: Cloud Computing (GCP)
+  percentage: 85
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Container orchestration (Kubernetes)
+  percentage: 90
+  color: green
+
+- type: soft-skill-indicator
+  name: CI/CD
+  percentage: 95
+  color: orange
+
+- type: soft-skill-indicator
+  name: IAC (Terraform, Ansible)
   percentage: 100
   color: yellow
+
+- type: soft-skill-indicator
+  name: Security
+  percentage: 75
+  color: pink
 
 # - type: soft-skill-indicator
 #   name: Hard Working
