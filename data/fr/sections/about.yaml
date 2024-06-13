@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Site Reliability Engineer (SRE)
+designation: Freelance Devops et SRE
 # your company information
 # company:
 #   name: Example Co.
@@ -16,16 +16,29 @@ designation: Site Reliability Engineer (SRE)
 
 
 # a summary about you
-summary: 'Bienvenue sur mon Portfolio'
+summary: |
+  Bonjour, je suis Edwin, expert DevOps freelance spécialisé dans les solutions cloud (**GCP**), l'orchestration de conteneurs (**Kubernetes**), l'intégration et déploiement continu (**CI/CD**), et l'infrastructure as code (**Terraform**, **Ansible**).
+  
+  Je propose des **services sur mesure** pour accompagner votre entreprise dans la mise en place et l'optimisation de vos infrastructures DevOps. Grâce à mon expertise avec GCP, Kubernetes, en CI/CD, et Terraform, je peux vous aider à :
+  - **Scalabilité et Performance** : Déployer des infrastructures scalables et performantes pour accompagner la croissance de votre entreprise.
+  - **Automatisation et Efficacité** : Mettre en place des pipelines CI/CD robustes pour automatiser les déploiements et réduire les temps de mise en production.
+  - **Sécurité et Conformité** : Assurer la sécurité de vos environnements cloud et veiller à la conformité avec les régulations en vigueur.
+  - **Optimisation des Coûts** : Utiliser des pratiques d'infrastructure as code pour une gestion optimale des ressources et des coûts.
+
+  N'hésitez pas à ma contacter en cliquant sur les liens dessous :
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
+- name: Calendly
+  icon: "fa fa-calendar-plus"
+  url: "https://calendly.com/istin-edwin/first-call-meeting"
+
 - name: Email
   icon: "fas fa-envelope"
   url: "istin.edwin@gmail.com"
 
-- name: Github
+- name: GitHub
   icon: "fab fa-github"
   url: "https://github.com/eistin"
 
@@ -44,6 +57,11 @@ socialLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
+- type: certification
+  name: "HashiCorp Certified: Terraform Associate (003)"
+  url: "https://www.credly.com/org/hashicorp/badge/hashicorp-certified-terraform-associate-003"
+  badge: "https://images.credly.com/size/220x220/images/85b9cfc4-257a-4742-878c-4f7ab4a2631b/image.png"
+
 # - type: certification
 #   name: Certified Kubernetes Security Specialist
 #   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
@@ -61,18 +79,18 @@ badges:
 
 - type: soft-skill-indicator
   name: Leadership
-  percentage: 85
+  percentage: 100
   color: blue
 
 - type: soft-skill-indicator
   name: Team Work
-  percentage: 90
+  percentage: 100
   color: yellow
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 85
+#   color: orange
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator

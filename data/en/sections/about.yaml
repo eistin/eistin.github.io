@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Site Reliability Engineer (SRE)
+designation: Freelance DevOps and SRE
 # your company information
 # company:
 #   name: Example Co.
@@ -19,23 +19,36 @@ designation: Site Reliability Engineer (SRE)
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Welcome on my portfolio!'
+summary: |
+  Hello, I am Edwin, a freelance DevOps expert specializing in cloud solutions (**GCP**), container orchestration (**Kubernetes**), continuous integration and deployment (**CI/CD**), and infrastructure as code (**Terraform**, **Ansible**).
+
+  I offer **customized services** to support your company in setting up and optimizing your DevOps infrastructure. With my expertise in GCP, Kubernetes, CI/CD, and Terraform, I can help you with:
+
+  - **Scalability and Performance**: Deploying scalable and high-performance infrastructures to support your company's growth.
+  - **Automation and Efficiency**: Implementing robust CI/CD pipelines to automate deployments and reduce production times.
+  - **Security and Compliance**: Ensuring the security of your cloud environments and compliance with regulations.
+  - **Cost Optimization**: Using infrastructure as code practices for optimal resource and cost management.
+
+  Feel free to contact me by clicking on the links below:
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
+- name: Calendly
+  icon: "fa fa-calendar-plus"
+  url: "https://calendly.com/istin-edwin/first-call-meeting"
+
 - name: Email
   icon: "fas fa-envelope"
   url: "istin.edwin@gmail.com"
 
-- name: Github
+- name: GitHub
   icon: "fab fa-github"
   url: "https://github.com/eistin"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/edwin-istin/"
-
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
@@ -46,7 +59,13 @@ socialLinks:
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
+
 badges:
+- type: certification
+  name: "HashiCorp Certified: Terraform Associate (003)"
+  url: "https://www.credly.com/org/hashicorp/badge/hashicorp-certified-terraform-associate-003"
+  badge: "https://images.credly.com/size/220x220/images/85b9cfc4-257a-4742-878c-4f7ab4a2631b/image.png"
+
 # - type: certification
 #   name: Certified Kubernetes Security Specialist
 #   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
@@ -63,19 +82,29 @@ badges:
 #   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
-  name: Leadership
+  name: Cloud Computing (GCP)
   percentage: 85
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Container orchestration (Kubernetes)
   percentage: 90
+  color: green
+
+- type: soft-skill-indicator
+  name: CI/CD
+  percentage: 95
+  color: orange
+
+- type: soft-skill-indicator
+  name: IAC (Terraform, Ansible)
+  percentage: 100
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+  name: Security
+  percentage: 75
+  color: pink
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
